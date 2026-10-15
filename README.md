@@ -18,7 +18,7 @@ To integrate `XMediatorVungle` into your Xcode project using Swift Package Manag
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-vungle-swift-package", exact: "7.7.700")
+    .package(url: "https://github.com/x3mads/xmediator-vungle-swift-package", exact: "7.7.800")
 ]
 ```
 
