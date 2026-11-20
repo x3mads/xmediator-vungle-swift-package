@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorVungle", targets: ["XMediatorVungleTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.7.8"),
+        .package(url: "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager.git", exact: "7.8.0"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.145.0")),
     ],
     targets: [
@@ -24,8 +24,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorVungle",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorVungle/XMediatorVungle-7.7.8.0.zip",
-            checksum: "22f4d515d4826f1133c9f069a801a141c0588a1cd814e180a42450ce9b048e70"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorVungle/XMediatorVungle-7.8.0.0.zip",
+            checksum: "0b6388796aebdd8145460000e593bec458a8e83c008024217bdd655d3b96dfc7"
         ),
     ]
 )
